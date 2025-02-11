@@ -1,10 +1,10 @@
 <?php
     if(!defined('pagelock') || pagelock!=true) die ('Security breach detected');
 //database setting
-$servername = "localhost";
-$username = "root";  
-$password = "00190300";      
-$dbname = "onlineStock";  
+$servername = "Database Name";
+$username = "Database User";  
+$password = "Database Password";      
+$dbname = "Dataabse Name";  
 //program setting
 $sessiontimeout = 10; // minutes
 $lockTime = 2;  // minutes
